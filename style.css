@@ -1,0 +1,73 @@
+body {
+   
+    background: #090d00;
+}
+
+canvas {
+    
+    padding: 12px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+    animation: gradient 3s ease infinite;
+}
+
+div {
+  
+    display: inline-block;
+    padding: 11px;
+}
+
+#dfsd {
+    background-color: aquamarine;
+ 
+    padding-left: 50px;
+    padding-right: 18px;
+
+}
+
+#bfsd {
+    background-color: aquamarine;
+    padding-left: 50px;
+}
+
+.navbar-brand {
+    text-transform: capitalize;
+    font-size:48px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.btn {
+    transition: ease-in-out;
+
+}
+
+.btn:hover {
+
+    width: 150px;
+    height: 50px;
+}
+
+@keyframes animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.navbar {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+    animation: gradient 3s ease infinite;
+}
+
+
